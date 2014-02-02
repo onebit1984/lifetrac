@@ -24,6 +24,7 @@ for item in cu.fetchall():
 t='0'
 cu.execute('SELECT * FROM wb WHERE id=?', t)
 
+print 'it is ok'
 '''
 # Larger example that inserts many records at a time
 purchases = [('2006-03-28', 'BUY', 'IBM', 1000, 45.00),
